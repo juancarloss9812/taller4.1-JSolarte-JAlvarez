@@ -1,0 +1,4 @@
+/*C3*/SET SCHEMA PUBLIC
+create table "PUBLIC".planTuristico\u000a(\u000a\u0009ciudad VARCHAR(20),\u000a\u0009idPlan NUMERIC not null,\u000a\u0009ciudadDestino CHAR(20),\u000a\u0009primary key (idPlan)\u000a)
+drop table "PUBLIC"."PLANTURISTICO"
+create table "PUBLIC".planturistico\u000a(\u000a\u0009id CHAR(50) not null,\u000a\u0009nombre CHAR(50),\u000a\u0009descripcion VARCHAR(90),\u000a\u0009rangoEdad1 CHAR(10),\u000a\u0009rangoEdad2 CHAR(10),\u000a\u0009genero CHAR(20),\u000a\u0009primary key (id)\u000a)
